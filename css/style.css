@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#carousel {
+  width: 700px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 7px solid #234;
+  border-radius: 4px;
+  background-color: #234;
+  position: relative; }
+  #carousel ul {
+    width: 2800px;
+    padding: 0;
+    margin: 0; }
+  #carousel ul li {
+    width: 700px;
+    height: 100%;
+    list-style: none;
+    float: left; }
+
+img {
+  width: 700px;
+  height: 100%; }
+
+a.right carousel-control,
+a.left carousel-control {
+  width: 800px; }
+
+#leftBtn {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  font-size: 55px;
+  color: lightgray; }
+
+#rightBtn {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  font-size: 55px;
+  color: lightgrey; }
+
